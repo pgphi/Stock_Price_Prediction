@@ -7,7 +7,7 @@
     to visualize the 4th dimension (Highest Price) a heatmap was used:
 
 <p align="center">
-  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Scatter%20Open%20Price.png" width="800" height="650" title="hover text">
+  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Scatter%20Open%20Price.png" width="800" height="600" title="hover text">
 </p>
 
 ###### Here is the Logic (Output) for making a closing price prediction:
@@ -64,14 +64,14 @@ https://www.kaggle.com/datasets/mattiuzc/stock-exchange-data?resource=download
 <b>Scatterplots</b> can show whether there is a linear or curvilinear relationship.
 
 <p align="center">
-  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Linearity.png" width="800" height="650" title="hover text">
+  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Linearity.png" width="800" height="600" title="hover text">
 </p>
 
 
 2. Multivariate Normality–Multiple regression assumes that the <b>residuals are normally distributed</b>.
 
 <p align="center">
-  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Normal%20Distribution%20of%20Residuals.png" width="800" height="650" title="hover text">
+  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Normal%20Distribution%20of%20Residuals.png" width="800" height="600" title="hover text">
 </p>
 
 3. Multiple Regression assumes that the <b>independent variables are not highly correlated</b> with each 
@@ -101,7 +101,7 @@ other. This assumption is tested using Variance Inflation Factor (VIF) values.
         Predicted Closing Price = 12.938,36 (variance of 0.84%).
 
 <p align="center">
-  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Scatter%20with%20Volume.png" width="800" height="650" title="hover text">
+  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Scatter%20with%20Volume.png" width="800" height="600" title="hover text">
 </p>
 
 
@@ -111,7 +111,7 @@ independent variables.  A <b>plot of standardized residuals versus predicted val
 distributed across all values of the independent variables</b>.
 
 <p align="center">
-  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Actual%20vs%20Predicted%20Price.png" width="800" height="650" title="hover text">
+  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Actual%20vs%20Predicted%20Price.png" width="800" height="600" title="hover text">
 </p>
 
 
