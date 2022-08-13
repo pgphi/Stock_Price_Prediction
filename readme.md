@@ -6,7 +6,10 @@
     independent and 1 dependent variable(s) in a 3D Scatter Plot. In order 
     to visualize the 4th dimension (Highest Price) a heatmap was used:
 
-![alt text][(https://github.com/pgphi/Stock_Price_Prediction/blob/main/Scatter Open Price.png?raw=true)](https://github.com/pgphi/Stock_Price_Prediction/blob/main/Scatter%20Open%20Price.png)
+<p align="center">
+  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Scatter%20Open%20Price.png" width="350" title="hover text">
+  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Scatter%20Open%20Price.png" width="350" alt="accessibility text">
+</p>
 
 ###### Here is the Logic (Output) for making a closing price prediction:
     
