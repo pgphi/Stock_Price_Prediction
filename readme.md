@@ -6,7 +6,7 @@
     independent and 1 dependent variable(s) in a 3D Scatter Plot. In order 
     to visualize the 4th dimension (Highest Price) a heatmap was used:
 
-[![](../../../Desktop/Bildschirmfoto 2022-08-13 um 15.19.55.png)](https://github.com/pgphi/Stock_Price_Prediction/blob/main/Scatter%20Open%20Price.png)
+![alt text](../../../Desktop/Bildschirmfoto 2022-08-13 um 15.19.55.png)]
 
 ###### Here is the Logic (Output) for making a closing price prediction:
     
