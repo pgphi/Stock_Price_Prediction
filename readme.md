@@ -7,8 +7,7 @@
     to visualize the 4th dimension (Highest Price) a heatmap was used:
 
 <p align="center">
-  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Scatter%20Open%20Price.png" width="350" title="hover text">
-  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Scatter%20Open%20Price.png" width="350" alt="accessibility text">
+  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Scatter%20Open%20Price.png" width="600" title="hover text">
 </p>
 
 ###### Here is the Logic (Output) for making a closing price prediction:
