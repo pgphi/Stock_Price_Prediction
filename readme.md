@@ -1,3 +1,8 @@
+___
+Author: Philipp Ganster
+All rights reserved ©
+___
+
 ## About the Project
 
     This project aims to predict the closing stock market price of the 
