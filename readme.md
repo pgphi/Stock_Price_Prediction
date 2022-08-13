@@ -8,7 +8,7 @@
 
 ![](../../../Desktop/Bildschirmfoto 2022-08-13 um 15.19.55.png)
 
-######Here is the Logic (Output) for making a closing price prediction:
+###### Here is the Logic (Output) for making a closing price prediction:
     
     [REGRESSOR VALUES FOR MAKING A PREDICTION]
     type in the value for first regressor (Open Price in USD): 13344
@@ -21,7 +21,7 @@
     Do you want to make another prediction? type 'yes' or 'no' (!case sensitive!)
     no
 
-######Try it out and compare it to recent closing prices of the NASDAQ Stock Index:
+###### Try it out and compare it to recent closing prices of the NASDAQ Stock Index:
 
     For example:
     Price Data from 12-08-2022 (day-month-year):
@@ -55,7 +55,7 @@ https://www.kaggle.com/datasets/mattiuzc/stock-exchange-data?resource=download
     was used. In order to evaluate the performance of the model training/test split of 80/20 was 
     used with a random seed of 25.
 
-###Conditions which must be satisfied for validation and reliability for forecast model:
+### Conditions which must be satisfied for validation and reliability for forecast model:
 
 1. There must be a linear relationship between the outcome variable and the independent variables.
 <b>Scatterplots</b> can show whether there is a linear or curvilinear relationship.
@@ -71,27 +71,27 @@ https://www.kaggle.com/datasets/mattiuzc/stock-exchange-data?resource=download
 other. This assumption is tested using Variance Inflation Factor (VIF) values.
 
     
-    Here the independent variables are highly correlated:
-    VIF for each feautures (Open, Low and High):[18268.37360056  7584.67313824 13624.71922208]
-    
-    However Multicollinearity can be optimized by changing feautures (Open --> to Volume):
-    New VIFs for each feautures (Volume, Low and High): [3.60976473e+00 6.17859750e+03 6.26088737e+03]
-    
-    Model Performance stays pretty much the same:
-    coefficient of determination (model accuracy where 1 is best): 0.9999322950352939
-    intercept (value when x is zero): [-0.45500212]
-    slopes (increase of y when x is increasing by one unit): [[4.51323174e-10 5.62005458e-01 4.39271244e-01]]
-    Mean Absolute Error (arithmetic average of errors): 9.543825927960192
+        Here the independent variables are highly correlated:
+        VIF for each feautures (Open, Low and High):[18268.37360056  7584.67313824 13624.71922208]
 
-    For example:
-    Price Data from 12-08-2022 (day-month-year):
+        However Multicollinearity can be optimized by changing feautures (Open --> to Volume):
+        New VIFs for each feautures (Volume, Low and High): [3.60976473e+00 6.17859750e+03 6.26088737e+03]
 
-    Actual Volume        = 4310579000
-    Actual Highest Price = 13.047,19
-    Actual Lowest Price  = 12.821,22
-    Actual Closing Price = 13.047,19
-    
-    Predicted Closing Price = 12.938,36 (variance of 0.84%).
+        Model Performance stays pretty much the same:
+        coefficient of determination (model accuracy where 1 is best): 0.9999322950352939
+        intercept (value when x is zero): [-0.45500212]
+        slopes (increase of y when x is increasing by one unit): [[4.51323174e-10 5.62005458e-01 4.39271244e-01]]
+        Mean Absolute Error (arithmetic average of errors): 9.543825927960192
+
+        For example:
+        Price Data from 12-08-2022 (day-month-year):
+
+        Actual Volume        = 4310579000
+        Actual Highest Price = 13.047,19
+        Actual Lowest Price  = 12.821,22
+        Actual Closing Price = 13.047,19
+
+        Predicted Closing Price = 12.938,36 (variance of 0.84%).
 
 ![](../../../Desktop/Bildschirmfoto 2022-08-13 um 17.36.42.png)
 
@@ -109,13 +109,13 @@ or interval/ratio level variables.  A rule of thumb for the sample size is that 
 20 cases per independent variable in the analysis. 
 
 
-    Also Check no. of feautures >= 2 (3 independent variables: Open, Lowest, Highest Price)
+        Also Check no. of feautures >= 2 (3 independent variables: Open, Lowest, Highest Price)
 
 ##### Model Performance
-    coefficient of determination (model accuracy where 1 is best): 0.9999550474481538
-    intercept (value when x is zero): [-0.28454242]
-    slopes (increase of y when x is increasing by one unit): [[-0.64493405  0.77681206  0.86836385]]
-    Mean Absolute Error (arithmetic average of errors): 7.041656288084994
+        coefficient of determination (model accuracy where 1 is best): 0.9999550474481538
+        intercept (value when x is zero): [-0.28454242]
+        slopes (increase of y when x is increasing by one unit): [[-0.64493405  0.77681206  0.86836385]]
+        Mean Absolute Error (arithmetic average of errors): 7.041656288084994
 
 ##### General Remarks regard re-use
     This project can be used for other forecasting models with 3 regressors
