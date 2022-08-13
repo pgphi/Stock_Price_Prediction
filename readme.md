@@ -6,7 +6,7 @@
     independent and 1 dependent variable(s) in a 3D Scatter Plot. In order 
     to visualize the 4th dimension (Highest Price) a heatmap was used:
 
-<p align="left">
+<p align="center">
   <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Scatter%20Open%20Price.png" width="800" height="650" title="hover text">
 </p>
 
@@ -63,12 +63,16 @@ https://www.kaggle.com/datasets/mattiuzc/stock-exchange-data?resource=download
 1. There must be a linear relationship between the outcome variable and the independent variables.
 <b>Scatterplots</b> can show whether there is a linear or curvilinear relationship.
 
-![](../../../Desktop/Bildschirmfoto 2022-08-13 um 15.18.24.png)
+<p align="center">
+  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Linearity.png" width="800" height="650" title="hover text">
+</p>
 
 
 2. Multivariate Normality–Multiple regression assumes that the <b>residuals are normally distributed</b>.
 
-![](../../../Desktop/Bildschirmfoto 2022-08-13 um 15.28.48.png)
+<p align="center">
+  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Normal%20Distribution%20of%20Residuals.png" width="800" height="650" title="hover text">
+</p>
 
 3. Multiple Regression assumes that the <b>independent variables are not highly correlated</b> with each 
 other. This assumption is tested using Variance Inflation Factor (VIF) values.
@@ -96,7 +100,9 @@ other. This assumption is tested using Variance Inflation Factor (VIF) values.
 
         Predicted Closing Price = 12.938,36 (variance of 0.84%).
 
-![](../../../Desktop/Bildschirmfoto 2022-08-13 um 17.36.42.png)
+<p align="center">
+  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Scatter%20with%20Volume.png" width="800" height="650" title="hover text">
+</p>
 
 
 
@@ -104,7 +110,9 @@ other. This assumption is tested using Variance Inflation Factor (VIF) values.
 independent variables.  A <b>plot of standardized residuals versus predicted values can show whether points are equally 
 distributed across all values of the independent variables</b>.
 
-![](../../../Desktop/Bildschirmfoto 2022-08-13 um 15.19.30.png)
+<p align="center">
+  <img src="https://github.com/pgphi/Stock_Price_Prediction/blob/main/Actual%20vs%20Predicted%20Price.png" width="800" height="650" title="hover text">
+</p>
 
 
 5. Multiple linear regression requires <b>at least two independent variables</b>, which can be nominal, ordinal, 
