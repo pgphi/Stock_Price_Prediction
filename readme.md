@@ -42,7 +42,8 @@ https://www.kaggle.com/datasets/mattiuzc/stock-exchange-data?resource=download
     The data was collected from yahoo finance during 1971-02-05 till 2021-05-28
 
 ##### The independend variables used in this project were:
-    Open = Opening Price 
+    Open = Opening Price
+    (Volume) = Shares traded per day
     High = Highest price during trading day
     Low = Lowest price during trading day
     
