@@ -108,21 +108,23 @@ distributed across all values of the independent variables</b>.
 or interval/ratio level variables.  A rule of thumb for the sample size is that regression analysis requires at least 
 20 cases per independent variable in the analysis. 
 
-
-        Also Check no. of feautures >= 2 (3 independent variables: Open, Lowest, Highest Price)
+    Also Check no. of feautures >= 2 (3 independent variables: Open, Lowest, Highest Price)
 
 ##### Model Performance
-        coefficient of determination (model accuracy where 1 is best): 0.9999550474481538
-        intercept (value when x is zero): [-0.28454242]
-        slopes (increase of y when x is increasing by one unit): [[-0.64493405  0.77681206  0.86836385]]
-        Mean Absolute Error (arithmetic average of errors): 7.041656288084994
+    
+    coefficient of determination (model accuracy where 1 is best): 0.9999550474481538
+    intercept (value when x is zero): [-0.28454242]
+    slopes (increase of y when x is increasing by one unit): [[-0.64493405  0.77681206  0.86836385]]
+    Mean Absolute Error (arithmetic average of errors): 7.041656288084994
 
 ##### General Remarks regard re-use
+    
     This project can be used for other forecasting models with 3 regressors
     and one predictor as well. Just make sure to rename the scatter plot
     (and other potential variables) and preprocess the csv dataset in a proper way.
 
 ##### Outlook and further idea
+    
     Collect text data of every day between 1971-02-05 till 2021-05-28 and evaluate
     sentiments with NLP (i.e. 1 - bad news | 2 - neutral news | 3 - good news) and 
     incorporate categorical data into the model for better predictions.
